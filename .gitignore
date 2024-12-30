@@ -1,0 +1,26 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore image files (optional)
+*.jpg
+*.jpeg
+*.png
+
+# Ignore large model weights (if applicable)
+*.h5
+
+# Ignore other unnecessary files
+*.log
+
+# Ignore TensorFlow libraries
+env/lib/python3.10/site-packages/tensorflow/*
+
+# Ignore compiled files
+*.so
+
+# Ignore environment folders
+env/
